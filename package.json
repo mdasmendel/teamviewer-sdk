@@ -1,0 +1,37 @@
+{
+  "name": "teamviewer-sdk",
+  "version": "1.0.0",
+  "description": "A SDK for connetct to Tema Viewer API",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdasmendel/teamviewer-sdk.git"
+  },
+  "keywords": [
+    "TeamViewer",
+    "remote",
+    "control",
+    "SDK",
+    "Node",
+    "TypeScript"
+  ],
+  "author": "Dascal Mihai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdasmendel/teamviewer-sdk/issues"
+  },
+  "homepage": "https://github.com/mdasmendel/teamviewer-sdk#readme",
+  "dependencies": {
+    "lodash.merge": "^4.6.0",
+    "popsicle": "^9.1.0",
+    "popsicle-status": "^2.0.1",
+    "url-join": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.50",
+    "typescript": "^2.2.1"
+  }
+}
